@@ -1,0 +1,105 @@
+  /* Estilo para el navbar */
+  .navbar {
+    background-color: black; /* Fondo negro */
+    color: white; /* Letras blancas */
+  }
+
+  /* Estilos para los enlaces en el navbar */
+  .navbar-nav .nav-link {
+    color: white; /* Letras blancas para los enlaces */
+  }
+
+  /* Estilos para los enlaces cuando se pasa el puntero sobre ellos */
+  .navbar-nav .nav-link:hover {
+    color: pink; /* Letras rosas */
+  }
+
+  .content{
+    margin-top: 50px; 
+    text-align: center; 
+    padding: 30px;
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    font-size: 18px; /* Tamaño de letra */
+    line-height: 1.4; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+ /*ACCERCA DE */
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+   .section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(to bottom, #FFC0CB, #FF69B4);
+  }
+
+ /*registro*/
+
+ .registration-box {
+      max-width: 700px;
+      margin: auto;
+      padding: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      font-family: 'Arial', sans-serif; 
+      font-size: 18px; 
+      line-height: 2.4;
+    }
+
+  .registration-box .form-group:last-child {
+      margin-bottom: 40px;
+    }
+ 
+  /*Footer*/
+
+footer {
+    background-color: #ff68f7;
+    /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    /* Ancho máximo del contenido del footer */
+    margin: 0 auto;
+    /* Centrar el contenido del footer horizontalmente */
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin-right: 15px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
